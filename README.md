@@ -614,4 +614,7 @@ This all begs a few questions which would be best discussed with the community:
     Vs ETA interval updates really effective for graphing and providing
     additional assistence?
   * Can and should fio's own lower limit of higher than 250 milliseconds be
-    lifted? Why?
+    lifted? Why? - There is an answer to this, this is described on
+    [github issue #495](https://github.com/axboe/fio/issues/495). Github is
+    under a DoS now, so unfortunately this cannot be viewed yet, and the
+    information cannot be relayed here...
