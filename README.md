@@ -560,13 +560,13 @@ therefore difficult to read unless `group_reporting=1` is used.
 
 ## Real time analysis
 
-`fiovisualizer` claims to provide realtime graphing, however `gfio` provides
-only 150 milliseconds better resolution than gfio. Anything below 100
-milliseconds for status intervals currently reveals more data but the accuracy
-on timing below may not be what be expected and requires further investigation.
-Additionally there is a time penalty to consider on `fiovisualizer` as it parses
-data prior to plotting, this impact should be considered, however it is expected
-to be minor.
+`fiovisualizer` claims to provide realtime graphing, however `fiovisualizer`
+provides only 150 milliseconds *better* resolution than gfio. Anything below
+100 milliseconds for status intervals currently reveals more data but the
+accuracy on timing below may not be what be expected and requires further
+investigation.  Additionally there is a time penalty to consider on
+`fiovisualizer` as it parses data prior to plotting, this impact should be
+considered, however it is expected to be minor.
 
 `fiovisualizer` relies on status interval updates. Although the interval is
 configurable, the check for such interval *should* only happen every
